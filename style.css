@@ -1,44 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
     background-color: rgb(31, 33, 33);
 }
 
-.navbar{
+.navbar {
     width: 100%;
     display: flex;
     background-color: rgb(31, 33, 33);
 }
 
-.navcontent{
+.navcontent {
     width: 100%;
     display: flex;
     height: 4vh;
 }
 
-.navcontent ul{
+.navcontent ul {
     display: flex;
     width: 50%;
     margin: auto;
     list-style: none;
 }
 
-.navcontent li{
+.navcontent li {
     margin: auto;
     color: white;
     font-weight: bold;
 }
 
-.navcontent li:hover{
+.navcontent li:hover {
     text-decoration: underline;
     border-radius: 5px;
 }
 
-.container{
+.container {
     width: 100%;
     height: 55vh;
     background-color: rgb(50, 49, 49);
@@ -51,14 +51,14 @@ body{
     width: fit-content;
 }
 
-.img img{
+.img img {
     width: 30vh;
     border-radius: 50%;
     margin-top: 3vh;
     padding-left: 1vh;
 }
 
-.myname{
+.myname {
     margin-top: 20px;
     margin-left: 16px;
     color: white;
@@ -67,22 +67,22 @@ body{
     text-align: center;
 }
 
-.myname h1{
+.myname h1 {
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
-.myname h3{
+.myname h3 {
     margin: 2vh;
     text-decoration: underline;
 }
 
-@media only screen and (min-width:200px) and (max-width:767px){
-    body{
+@media only screen and (min-width:200px) and (max-width:767px) {
+    body {
         width: 100%;
     }
 
-    .myname{
+    .myname {
         margin-top: 20px;
         margin-left: 16px;
         color: white;
@@ -91,7 +91,7 @@ body{
         text-align: center;
     }
 
-    .navcontent ul{
+    .navcontent ul {
         display: flex;
         width: 50%;
         font-size: 10px;
@@ -99,28 +99,52 @@ body{
         list-style: none;
     }
 
-    .navbar{
+    .navbar {
         width: 100%;
     }
 
-    .container{
+    .container {
         width: 100%;
     }
 }
 
+.mainSec {
+    width: 100%;
+    display: flex;
+}
 
-.bottom{
-    border: 1px solid white;
-    border: none;
-    width: 70%;
-    height: 100%;
+.bottoml {
     margin: 2vh auto;
-}
-
-.bottom h4{
+    width: 50%;
     color: white;
-    font-size: 20px;
-    padding: 10px;
-    padding-top: 5px;
 }
 
+.bottomr{
+    border: 1px solid white;
+    margin: 2vh auto;
+    width: 35%;
+}
+
+.bottoml h2{
+    text-decoration: underline rgb(255, 153, 0);
+    padding: 3px;
+}
+
+.bottoml p{
+    padding: 10px;
+    font-size: 1.9vh;
+}
+
+.wave{
+   width: 100%;
+   display: flex;
+}
+.wave img{
+    margin: 1vh auto;
+}
+
+.bottomr h2{
+    text-decoration: underline rgb(255, 153, 0);
+    padding: 3px;
+    color: white;
+}
