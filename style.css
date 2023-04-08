@@ -34,7 +34,7 @@ body {
 }
 
 .navcontent li:hover {
-    text-decoration: underline;
+    text-decoration: underline rgb(255, 153, 0);;
     border-radius: 5px;
 }
 
@@ -69,12 +69,12 @@ body {
 
 .myname h1 {
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline rgb(255, 153, 0) 2.5px;
 }
 
 .myname h3 {
     margin: 2vh;
-    text-decoration: underline;
+    text-decoration: underline rgb(255, 153, 0);;
 }
 
 @media only screen and (min-width:200px) and (max-width:767px) {
@@ -117,12 +117,16 @@ body {
     margin: 2vh auto;
     width: 50%;
     color: white;
+    border-right: inset 0.1px;
+    
+  
 }
 
 .bottomr{
     border: 1px solid white;
     margin: 2vh auto;
     width: 35%;
+    border: none;
 }
 
 .bottoml h2{
@@ -146,5 +150,9 @@ body {
 .bottomr h2{
     text-decoration: underline rgb(255, 153, 0);
     padding: 3px;
+    color: white;
+}
+
+.bottomr p{
     color: white;
 }
