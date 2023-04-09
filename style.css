@@ -158,19 +158,21 @@ body {
 }
 
 .middle{
-    width: 100%;
+    width: 97%;
     height: 100%;
     margin-top:1.8vh;
     display: flex;
+    margin-left: 2.5vw;
 }
 .contMid{
     width: 80%;
     margin: auto;
     border: 1px solid white;
     border: none;
-    height: 50vh;
+    height: 30vh;
     position: relative;
     display: flex;
+    margin-left: 10vw;
     
 }
 .skills img{
@@ -180,13 +182,39 @@ body {
 .skills h1{
     text-decoration: underline;
     text-align: center;
+    color: white;
 }
 .miniCont{
     /* border: 1px solid white; */
-    height: 23vh;
-    width: 11vw;
+    height: 12vh;
+    width: 12vw;
     margin: 2vw;
     border-radius: 20px;
     display: flex;
-    padding: 5px;
+    padding: 20px;
+}
+
+.tools img{
+    width: 3vh;
+    text-align:center ;
+}
+.tools h1{
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    margin-left: 1vw;
+}
+
+.middle1{
+    width: 97%;
+    height: 100%;
+    margin-top:1.8vh;
+    display: flex;
+    margin-left: 2.5vw;
+}
+
+.contMid1{
+    display: flex;
+    margin-left: 23vw;
+
 }
