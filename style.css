@@ -166,13 +166,12 @@ body {
 }
 .contMid{
     width: 80%;
-    margin: auto;
     border: 1px solid white;
     border: none;
     height: 30vh;
     position: relative;
     display: flex;
-    margin-left: 10vw;
+    margin-left: 5.6vw;
     
 }
 .skills img{
@@ -215,6 +214,6 @@ body {
 
 .contMid1{
     display: flex;
-    margin-left: 23vw;
+    margin-left: 14vw;
 
 }
