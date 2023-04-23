@@ -8,6 +8,7 @@ body {
     background-color: rgb(31, 33, 33);
 }
 
+
 .navbar {
     width: 100%;
     display: flex;
@@ -171,7 +172,7 @@ body {
     height: 30vh;
     position: relative;
     display: flex;
-    margin-left: 5.6vw;
+    margin-left: 7.6vw;
     
 }
 .skills img{
@@ -209,11 +210,50 @@ body {
     height: 100%;
     margin-top:1.8vh;
     display: flex;
-    margin-left: 2.5vw;
+    margin-left: 4vw;
 }
 
 .contMid1{
     display: flex;
     margin-left: 14vw;
+}
 
+/* .miniCont:hover{
+    color: ;
+} */
+
+.projects{
+    border: 1px solid white;
+    width: 100%;
+    height: 55vh;
+    border: none;
+    display: flex;
+}
+
+.heading h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.p1{
+    border: 1px solid grey;
+    width: 22vw;
+    height: 40vh;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+}
+
+.p1 img{
+    width: 100%;
+    height: 100%;    
+    border-radius: 10px;
+}
+
+.p1 img:hover{
+    filter: blur(0.8rem);
+}
+
+.text1 h2{
+    position: absolute;
 }
