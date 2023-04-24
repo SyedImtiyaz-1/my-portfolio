@@ -1,5 +1,5 @@
-// let hover = document.getElementsByClassName('p1');
+let hover = document.getElementsByClassName('p1');
 
-// function mouseOver(){
+function mouseOver(){
     
-// }
+}
