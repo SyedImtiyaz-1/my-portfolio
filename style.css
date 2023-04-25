@@ -257,3 +257,26 @@ body {
 .text1 h2{
     position: absolute;
 }
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgb(61, 60, 60);
+    height: 28vh;
+}
+
+.leftf{
+    border: 1px solid white;
+    height: 25vh;
+    width: 25%;
+    margin: auto;
+    border: none;
+}
+
+.rightf{
+    border: 1px solid white;
+    height: 25vh;
+    width: 25%;
+    margin: auto;
+    border: none;
+}
