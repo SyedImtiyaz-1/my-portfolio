@@ -408,9 +408,11 @@ a .call{
     }
 
     .leftf h3{
-        width: 30vw;
-        float: left;
-        margin: auto;
+        width: 70vw;
+    }
+
+    .leftf{
+        width: 100vw;
     }
 
     .rightf{
@@ -432,9 +434,10 @@ a .call{
     }
     
     .contMid1 img {
-
        width:28vw;
-  
+    }
+    .icons{
+        width: 35vw;
     }
 .wave3{
     display: none;
