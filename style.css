@@ -486,4 +486,10 @@ a .call{
         color: rgb(234, 216, 216);
     }
 
+    #cv{
+        width: 30vw;
+        font-size: 8px;
+    }
+
+
 }
