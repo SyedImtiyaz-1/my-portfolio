@@ -305,7 +305,7 @@ a .call{
 }
 
 .call:hover{
-    color:lightblue;
+    color:rgb(0, 204, 255);
 }
 
 .fa-linkedin-in:hover{
@@ -445,6 +445,18 @@ a .call{
     
     .contMid1 {
     margin-top:3px;
+    }
+
+    .icons span{
+        color: rgb(234, 216, 216);
+    }
+
+    .center{
+        color: rgb(234, 216, 216);
+    }
+
+    .icons i{
+        color: rgb(234, 216, 216);
     }
 
 }
