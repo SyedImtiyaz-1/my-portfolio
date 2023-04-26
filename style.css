@@ -430,5 +430,9 @@ a .call{
     .mainSec {
         flex-direction: column;
     }
+    
+    .contMid1 img {
+        width:28vw;
+    }
 
 }
