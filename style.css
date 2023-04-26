@@ -432,7 +432,13 @@ a .call{
     }
     
     .contMid1 img {
-        width:28vw;
+
+       width:28vw;
+  
+    }
+    
+    .contMid1 {
+    margin-top:3px;
     }
 
 }
