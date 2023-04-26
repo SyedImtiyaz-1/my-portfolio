@@ -330,20 +330,35 @@ a .call{
 @media only screen and (min-width:200px) and (max-width:700px){
 
     .myname{
-        width: 80%;
+        width: 100%;
         margin: auto;
+        font-size: 13px;
     }
 
     .bottoml h2{
-        font-size: 20px;
+        font-size: 22px;
+        margin: auto;
+        width: fit-content;
+    }
+
+    .bottoml {
+        border: none;
+        width: 100vw;
+    }
+
+    .bottomr {
+        width: 100vw;
     }
 
     .bottomr h2{
         font-size: 20px;
+        text-align: center;
     }
 
     .bottomr p{
-        font-size: 17px;
+        font-size: 15px;
+        margin: 4px;
+        text-align: center;
     }
     .contMid{
         flex-direction: column;
@@ -399,5 +414,9 @@ a .call{
         padding-right: 52px;
     }
 
+
+    .mainSec {
+        flex-direction: column;
+    }
 
 }
