@@ -87,6 +87,23 @@ html{
     text-decoration: underline rgb(255, 153, 0);;
 }
 
+#cv{
+    height: 4vh;
+    width: 7.5vw;
+    border: 1px solid white;
+    background-color: rgb(50, 49, 49);
+    color: white;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+#cv:hover{
+    background-color: rgb(255, 145, 25);
+    color: rgb(14, 14, 14);
+    /* border: none; */
+    transition: 1s;
+}
+
 @media only screen and (min-width:200px) and (max-width:767px) {
     body {
         width: 100%;
@@ -272,6 +289,7 @@ footer{
     width: 100%;
     background-color: rgb(61, 60, 60);
     height: 28vh;
+    color: white;
 }
 
 .leftf{
@@ -295,15 +313,15 @@ footer{
 }
 
 a .fa-linkedin-in{
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 a .email{
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 a .call{
-    color: #000;
+    color: #ffffff;
 }
 
 .email:hover{
@@ -332,6 +350,9 @@ a .call{
 .leftf h3{
     margin-left: 20px;
 }
+
+
+
 
 @media only screen and (min-width:200px) and (max-width:700px){
 
