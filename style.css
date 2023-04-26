@@ -335,6 +335,11 @@ a .call{
         font-size: 13px;
     }
 
+
+    .skills {
+        margin: 10px;
+    }
+
     .bottoml h2{
         font-size: 22px;
         margin: auto;
@@ -365,6 +370,13 @@ a .call{
         align-items: center;  
     }
 
+    .middle{
+        margin: 5px;
+    }
+    .contMid img{
+        width: 28vw;
+    }
+
     .contMid1{
         flex-direction: column;
         margin: auto;
@@ -372,7 +384,7 @@ a .call{
 
     .middle1
     {
-        margin-top: 3vh;
+        margin:5vw;
     }
 
     .tools{
