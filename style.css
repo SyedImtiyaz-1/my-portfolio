@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* scroll-behavior: smooth;  added js instead of this */
+    transition: 1s ease;
 }
 
 body {
