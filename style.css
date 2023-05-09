@@ -10,7 +10,7 @@ body {
     background-color: rgb(31, 33, 33);
 }
 
-html{
+html {
     height: 20vh;
 }
 
@@ -39,13 +39,14 @@ html{
     font-weight: bold;
 }
 
-.navcontent a{
+.navcontent a {
     color: white;
     text-decoration: none;
 }
 
 .navcontent li a:hover {
-    text-decoration: underline rgb(255, 153, 0);;
+    text-decoration: underline rgb(255, 153, 0);
+    ;
     border-radius: 5px;
 }
 
@@ -85,10 +86,11 @@ html{
 
 .myname h3 {
     margin: 2vh;
-    text-decoration: underline rgb(255, 153, 0);;
+    text-decoration: underline rgb(255, 153, 0);
+    ;
 }
 
-#cv{
+#cv {
     height: 4vh;
     width: 7.5vw;
     border: 1px solid white;
@@ -98,7 +100,7 @@ html{
     border-radius: 20px;
 }
 
-#cv:hover{
+#cv:hover {
     background-color: rgb(255, 145, 25);
     color: rgb(14, 14, 14);
     /* border: none; */
@@ -146,53 +148,55 @@ html{
     width: 50%;
     color: white;
     border-right: inset 0.1px;
-    
-  
+
+
 }
 
-.bottomr{
+.bottomr {
     border: 1px solid white;
     margin: 2vh auto;
     width: 35%;
     border: none;
 }
 
-.bottoml h2{
+.bottoml h2 {
     text-decoration: underline rgb(255, 153, 0);
     padding: 3px;
 }
 
-.bottoml p{
+.bottoml p {
     padding: 10px;
     font-size: 1.9vh;
 }
 
-.wave{
-   width: 100%;
-   display: flex;
+.wave {
+    width: 100%;
+    display: flex;
 }
-.wave img{
+
+.wave img {
     margin: 1vh auto;
 }
 
-.bottomr h2{
+.bottomr h2 {
     text-decoration: underline rgb(255, 153, 0);
     padding: 3px;
     color: white;
 }
 
-.bottomr p{
+.bottomr p {
     color: white;
 }
 
-.middle{
+.middle {
     width: 97%;
     height: 100%;
-    margin-top:1.8vh;
+    margin-top: 1.8vh;
     display: flex;
     margin-left: 2.5vw;
 }
-.contMid{
+
+.contMid {
     width: 80%;
     border: 1px solid white;
     border: none;
@@ -200,18 +204,21 @@ html{
     position: relative;
     display: flex;
     margin-left: 7.6vw;
-    
+
 }
-.skills img{
+
+.skills img {
     width: 45px;
-    text-align:center ;
+    text-align: center;
 }
-.skills h1{
+
+.skills h1 {
     text-decoration: underline;
     text-align: center;
     color: white;
 }
-.miniCont{
+
+.miniCont {
     /* border: 1px solid white; */
     height: 12vh;
     width: 12vw;
@@ -221,26 +228,27 @@ html{
     padding: 15px;
 }
 
-.tools img{
+.tools img {
     width: 3vh;
-    text-align:center ;
+    text-align: center;
 }
-.tools h1{
+
+.tools h1 {
     text-decoration: underline;
     text-align: center;
     color: white;
     margin-left: 1vw;
 }
 
-.middle1{
+.middle1 {
     width: 80%;
     height: 100%;
-    margin-top:1.8vh;
+    margin-top: 1.8vh;
     display: flex;
     margin-left: 4vw;
 }
 
-.contMid1{
+.contMid1 {
     display: flex;
     margin-left: 14vw;
 }
@@ -249,7 +257,7 @@ html{
     color: ;
 } */
 
-.projects{
+.projects {
     border: 1px solid white;
     width: 100%;
     height: 55vh;
@@ -257,12 +265,12 @@ html{
     display: flex;
 }
 
-.heading h1{
+.heading h1 {
     text-align: center;
     text-decoration: underline;
 }
 
-.p1{
+.p1 {
     border: 1px solid grey;
     width: 22vw;
     height: 40vh;
@@ -271,21 +279,21 @@ html{
     border: none;
 }
 
-.p1 img{
+.p1 img {
     width: 100%;
-    height: 100%;    
+    height: 100%;
     border-radius: 10px;
 }
 
-.p1 img:hover{
+.p1 img:hover {
     filter: blur(0.8rem);
 }
 
-.text1 h2{
+.text1 h2 {
     position: absolute;
 }
 
-footer{
+footer {
     display: flex;
     width: 100%;
     background-color: rgb(61, 60, 60);
@@ -293,7 +301,7 @@ footer{
     color: white;
 }
 
-.leftf{
+.leftf {
     border: 1px solid white;
     height: 25vh;
     width: 25%;
@@ -301,11 +309,11 @@ footer{
     border: none;
 }
 
-.center{
+.center {
     margin-top: 75px;
 }
 
-.rightf{
+.rightf {
     border: 1px solid white;
     height: 25vh;
     width: 25%;
@@ -313,51 +321,51 @@ footer{
     border: none;
 }
 
-a .fa-linkedin-in{
-    color:rgb(255, 255, 255);
+a .fa-linkedin-in {
+    color: rgb(255, 255, 255);
 }
 
-a .email{
-    color:rgb(255, 255, 255);
+a .email {
+    color: rgb(255, 255, 255);
 }
 
-a .call{
+a .call {
     color: #ffffff;
 }
 
-.email:hover{
+.email:hover {
     color: rgb(255, 51, 0);
 }
 
-.call:hover{
-    color:rgb(0, 204, 255);
+.call:hover {
+    color: rgb(0, 204, 255);
 }
 
-.fa-linkedin-in:hover{
+.fa-linkedin-in:hover {
     color: rgb(0, 110, 255);
 }
 
-.fa-linkedin-in{
+.fa-linkedin-in {
     font-size: 20px;
     position: absolute;
-    margin-top:3px;
+    margin-top: 3px;
     margin-left: 8px;
 }
 
-.mid{
+.mid {
     padding-left: 20px;
 }
 
-.leftf h3{
+.leftf h3 {
     margin-left: 20px;
 }
 
 
 
 
-@media only screen and (min-width:200px) and (max-width:700px){
+@media only screen and (min-width:200px) and (max-width:700px) {
 
-    .myname{
+    .myname {
         width: 100%;
         margin: auto;
         font-size: 13px;
@@ -368,7 +376,7 @@ a .call{
         margin: 10px;
     }
 
-    .bottoml h2{
+    .bottoml h2 {
         font-size: 22px;
         margin: auto;
         width: fit-content;
@@ -383,71 +391,73 @@ a .call{
         width: 100vw;
     }
 
-    .bottomr h2{
+    .bottomr h2 {
         font-size: 20px;
         text-align: center;
     }
 
-    .bottomr p{
+    .bottomr p {
         font-size: 15px;
         margin: 4px;
         text-align: center;
     }
-    .contMid{
+
+    .contMid {
         flex-direction: column;
-        align-items: center;  
+        align-items: center;
     }
 
-    .middle{
+    .middle {
         margin: 5px;
     }
-    .contMid img{
+
+    .contMid img {
         width: 28vw;
     }
 
-    .contMid1{
+    .contMid1 {
         flex-direction: column;
         margin: auto;
     }
 
-    .middle1
-    {
-        margin:5vw;
+    .middle1 {
+        margin: 5vw;
     }
 
-    .tools{
+    .tools {
         margin-top: 70vh;
     }
 
-    .projects{
+    .projects {
         flex-direction: column;
     }
-    .p1{
+
+    .p1 {
         width: 30vh;
     }
 
-    footer{
+    footer {
         margin-top: 45vh;
     }
 
-    .left{
+    .left {
         width: 100%;
         height: 100%;
     }
 
-    .leftf h3{
+    .leftf h3 {
         width: 70vw;
     }
 
-    .leftf{
+    .leftf {
         width: 100vw;
     }
 
-    .rightf{
+    .rightf {
         display: none;
     }
 
-    .center{
+    .center {
         margin: 0;
         width: 30vw;
     }
@@ -460,37 +470,110 @@ a .call{
     .mainSec {
         flex-direction: column;
     }
-    
+
     .contMid1 img {
-       width:28vw;
+        width: 28vw;
     }
-    .icons{
+
+    .icons {
         width: 35vw;
     }
-.wave3{
-    display: none;
-}
-    
+
+    .wave3 {
+        display: none;
+    }
+
     .contMid1 {
-    margin-top:3px;
+        margin-top: 3px;
     }
 
-    .icons span{
+    .icons span {
         color: rgb(234, 216, 216);
     }
 
-    .center{
+    .center {
         color: rgb(234, 216, 216);
     }
 
-    .icons i{
+    .icons i {
         color: rgb(234, 216, 216);
     }
 
-    #cv{
+    #cv {
         width: 30vw;
         font-size: 8px;
     }
 
+    .certifications-box {
+        margin-top: 30vh;
+        display: flex;
+        justify-content: center;
+    }
 
+    .certifications {
+        margin-top: 0;
+        width: 90%;
+        font-size: 0.8em;
+    }
+
+    .certifications-box h4 {
+        font-size: 0.8em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .certifications-box button{
+        font-size: 0.8em;
+        display: none;
+    }
+
+}
+
+/* updating portfolio with a new section of Certifications */
+
+.certifications {
+    display: flex;
+    justify-content: center;
+    margin: 3vh;
+}
+
+.certifications-box {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.certifications-box h1 {
+    text-align: center;
+    color: white;
+    padding: 2vh;
+    padding-top: 1vh;
+    text-decoration: underline;
+}
+
+.certifications-box h4 {
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh;
+    color: white;
+    border: 1px solid rgb(78, 78, 78);
+
+}
+
+.certifications-box h4:hover {
+    color: orange;
+}
+
+.certifications-box button {
+    width: 4vw;
+    height: 2.3vh;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(38, 38, 38);
+    font-weight: 700;
+    border: 1px solid rgb(255, 236, 200);
+}
+
+.certifications-box button:hover {
+    text-decoration: underline orange;
 }
