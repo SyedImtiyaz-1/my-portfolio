@@ -17,8 +17,8 @@ html {
 .navbar {
     width: 100%;
     display: flex;
-    position: sticky;
-    top: 1px;
+    /* position: sticky;
+    top: 1px; */
     background-color: rgb(31, 33, 33);
 
 }
