@@ -480,6 +480,7 @@ a .call {
 
     .icons {
         width: 60%;
+        display: inline-block;
     }
 
     .wave3 {
@@ -538,6 +539,7 @@ a .call {
     .cat{
         padding-left: 3.7rem;
         bottom: 0.2em;
+        display: inline-block;
     }
 
 }
