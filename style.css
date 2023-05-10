@@ -595,7 +595,7 @@ a .call {
 .cat{
    display: flex;
    position: relative;
-   left: 3vw;
+   left: 3.8vw;
    bottom: 0.4vh;
    font-size: 1.2em;
 }
