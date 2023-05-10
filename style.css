@@ -537,7 +537,7 @@ a .call {
     }
 
     .cat{
-        padding-left: 3.7rem;
+        margin-left: 3.7rem;
         bottom: 0.2em;
         display: inline-block;
     }
