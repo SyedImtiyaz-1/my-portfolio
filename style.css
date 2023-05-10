@@ -479,7 +479,7 @@ a .call {
     }
 
     .icons {
-        width: 35vw;
+        width: 60%;
     }
 
     .wave3 {
@@ -533,6 +533,11 @@ a .call {
 
     .certifications-box p{
         display: none;
+    }
+
+    .cat{
+        padding-left: 3.7rem;
+        bottom: 0.2em;
     }
 
 }
