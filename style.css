@@ -17,8 +17,8 @@ html {
 .navbar {
     width: 100%;
     display: flex;
-    /* position: sticky;
-    top: 1px; */
+     position: sticky;
+    top: 1px; 
     background-color: rgb(31, 33, 33);
 
 }
@@ -583,4 +583,12 @@ a .call {
 .certifications-box p:hover {
     text-decoration: underline orange;
     cursor: pointer;
+}
+
+.cat{
+   display: flex;
+   position: relative;
+   left: 3vw;
+   bottom: 0.4vh;
+   font-size: 1.2em;
 }
