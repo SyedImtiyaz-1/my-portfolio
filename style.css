@@ -17,7 +17,10 @@ html {
 .navbar {
     width: 100%;
     display: flex;
+    position: sticky;
+    top: 1px;
     background-color: rgb(31, 33, 33);
+
 }
 
 .navcontent {
@@ -504,26 +507,31 @@ a .call {
         font-size: 8px;
     }
 
-    .certifications-box {
-        margin-top: 30vh;
+    .certifications{
+        display: flex;
+        position: relative;
+        top: 28vh;
+        justify-content: center;
+        /* width: 50%; */
+    }
+    .certifications-box{
+        width: 100%;
+        /* scale: 110%; */
         display: flex;
         justify-content: center;
-    }
-
-    .certifications {
-        margin-top: 0;
-        width: 90%;
-        font-size: 0.8em;
-    }
-
-    .certifications-box h4 {
-        font-size: 0.8em;
         text-align: left;
-        width: 95%;
     }
 
-    .certifications-box button{
-        font-size: 0.8em;
+    #responsive-h4{
+        font-size: 0.6em;
+        text-align: left;
+        width: 100%;
+        scale: 160%;
+        margin-top: 5vh;
+        cursor: pointer;
+    }
+
+    .certifications-box p{
         display: none;
     }
 
@@ -535,10 +543,11 @@ a .call {
     display: flex;
     justify-content: center;
     margin: 3vh;
+    /* width: 98%; */
 }
 
 .certifications-box {
-    width: 50%;
+    width: 55%;
     flex-wrap: wrap;
 }
 
@@ -551,11 +560,12 @@ a .call {
 }
 
 .certifications-box h4 {
-    padding: 1vh;
+    padding: 1.5vh;
     display: flex;
     justify-content: space-between;
-    margin: 1vh;
+    margin: 1em;
     color: white;
+    font-size: 1.2em;
     border: 1px solid rgb(78, 78, 78);
 
 }
@@ -564,16 +574,13 @@ a .call {
     color: orange;
 }
 
-.certifications-box button {
-    width: 4vw;
-    height: 2.3vh;
-    border-radius: 10px;
+.certifications-box p {
     color: white;
-    background-color: rgb(38, 38, 38);
+    background-color:rgb(31, 33, 33);
     font-weight: 700;
-    border: 1px solid rgb(255, 236, 200);
 }
 
-.certifications-box button:hover {
+.certifications-box p:hover {
     text-decoration: underline orange;
+    cursor: pointer;
 }

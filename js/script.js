@@ -18,12 +18,18 @@ document.querySelector(".project-l").addEventListener("click", () => {
 function certi_1(){
   window.open("https://www.coursera.org/account/accomplishments/verify/9DKH8M8JSC9K");
 }
-function certi_1(){
+function certi_2(){
   window.open("https://www.coursera.org/account/accomplishments/verify/GUL48F4REY55");
 }
-function certi_1(){
-  window.open("https://www.coursera.org/account/accomplishments/verify/9DKH8M8JSC9K");
+function certi_3(){
+  window.open("https://www.hackerrank.com/certificates/4187d9f01a74");
 }
-function certi_1(){
-  window.open("https://www.coursera.org/account/accomplishments/verify/9DKH8M8JSC9K");
+function certi_4(){
+  window.open("https://www.hackerrank.com/certificates/f9103af05008");
+}
+function certi_5(){
+  window.open("https://www.hackerrank.com/certificates/79cdbeb817f2");
+}
+function certi_6(){
+  window.open("https://www.hackerrank.com/certificates/bcce29463561");
 }
