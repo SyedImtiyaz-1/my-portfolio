@@ -507,6 +507,10 @@ a .call {
         color: rgb(234, 216, 216);
     }
 
+    .icons a{
+        text-decoration: none;
+    }
+
     #cv {
         width: 30vw;
         font-size: 8px;
