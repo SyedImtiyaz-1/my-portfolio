@@ -34,7 +34,7 @@ html {
 
 .navcontent ul {
     display: flex;
-    width: 50%;
+    width: 60%;
     margin: auto;
     list-style: none;
 }
@@ -126,7 +126,7 @@ html {
 
     .navcontent ul {
         display: flex;
-        width: 50%;
+        width: 80%;
         font-size: 10px;
         margin: auto;
         list-style: none;
@@ -190,21 +190,21 @@ html {
 */
 
 .middle {
-    width: 97%;
+    width: 100%;
     height: 100%;
     margin-top: 1.8vh;
     display: flex;
-    margin-left: 2.5vw;
+    justify-content: center;
+    /* margin-left: 2.5vw; */
 }
 
 .contMid {
     width: 80%;
     border: 1px solid white;
     border: none;
-    height: 30vh;
-    position: relative;
+    /* height: 30vh; */
     display: flex;
-    margin-left: 7.6vw;
+    /* margin-left: 7.6vw; */
 
 }
 
@@ -226,7 +226,16 @@ html {
     margin: 2vw;
     border-radius: 20px;
     display: flex;
-    padding: 15px;
+    padding: 1em;
+}
+
+.miniCont1 {
+    height: 12vh;
+    width: 12vw;
+    margin: 2vw;
+    border-radius: 20px;
+    display: flex;
+    /* padding: 1em; */
 }
 
 .tools img {
@@ -242,18 +251,24 @@ html {
 }
 
 .middle1 {
-    width: 80%;
-    height: 100%;
-    margin-top: 1.8vh;
+    width: 100%;
     display: flex;
-    margin-left: 4vw;
+}
+
+.miniCont1 img {
+    display: flex;
+    justify-content: center;
 }
 
 .contMid1 {
+    width: fit-content;
+    border: 1px solid white;
+    border: none;
+    justify-content: center;
     display: flex;
-    width: 40%;
+    position: relative;
+    /* left: 4rem; */
     margin: auto;
-
 }
 
 /* .miniCont:hover{
@@ -325,16 +340,9 @@ footer {
     border: none;
 }
 
-a .fa-linkedin-in {
-    color: rgb(255, 255, 255);
-}
-
-a .email {
-    color: rgb(255, 255, 255);
-}
-
-a .call {
-    color: #ffffff;
+.leftf a {
+    color: white;
+    text-decoration: none;
 }
 
 .email:hover {
@@ -364,9 +372,6 @@ a .call {
     margin-left: 20px;
 }
 
-
-
-
 @media only screen and (min-width:200px) and (max-width:700px) {
 
     .myname {
@@ -374,7 +379,6 @@ a .call {
         margin: auto;
         font-size: 13px;
     }
-
 
     .skills {
         margin: 10px;
@@ -409,30 +413,36 @@ a .call {
     .contMid {
         flex-direction: column;
         align-items: center;
-        height: 30vh;
-    }
-
-    .middle {
-        margin: 5px;
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
     }
 
     .contMid img {
-        width: 30vw;
+        width: 32vw;
         height: 6em;
-        padding-left: 1vw;
+        display: flex;
+        justify-content: center;
     }
 
     .contMid1 {
         flex-direction: column;
-        width: 50%;
+        /* align-items: center; */
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
     }
 
-    .middle1 {
-        margin: 9%;
+    .miniCont1 {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        align-self: center;
     }
 
     .tools {
-        margin-top: 98vh;
+        margin-top: 4rem;
+        margin-bottom: 1.5rem;
     }
 
     .projects {
@@ -470,9 +480,9 @@ a .call {
     }
 
     .miniCont {
-        padding-right: 52px;
-        margin-top: 5vh;
-        width: 20%;
+        display: flex;
+        justify-content: start;
+        width: fit-content;
     }
 
 
@@ -481,8 +491,7 @@ a .call {
     }
 
     .contMid1 img {
-        width: 28vw;
-        display: flex;
+        height: 15vh;
     }
 
     .icons {
@@ -518,7 +527,7 @@ a .call {
     .certifications {
         display: flex;
         position: relative;
-        top: 28vh;
+        top: 26vh;
         justify-content: center;
         /* width: 50%; */
     }
@@ -548,13 +557,6 @@ a .call {
         margin-left: 3.7rem;
         bottom: 0.2em;
         display: inline-block;
-    }
-
-    #light-mode i{
-        display: flex;
-        position: relative;
-        align-items: center;
-        left: rem;
     }
 
 }
@@ -590,10 +592,6 @@ a .call {
 
 }
 
-/* .certifications-box h4:hover {
-    color: orange;
-} */
-
 .certifications-box p {
     background-color: rgb(31, 33, 33);
     font-weight: 700;
@@ -607,18 +605,16 @@ a .call {
 .cat {
     display: flex;
     position: relative;
-    left: 3.8vw;
+    left: 3.5vw;
     bottom: 0.4vh;
     font-size: 1.2em;
 }
 
 /* Dark Mode */
-#light-mode{
+#light-mode {
     font-size: 1.2rem;
     display: flex;
-    position: relative;
-    align-items: center;
-    left: 4rem;
+    justify-content: space-around;
 }
 
 body.light-mode {
@@ -634,11 +630,58 @@ body.light-mode {
     color: black;
 }
 
-/* #light-mode .light-mode{
-    
-} */
+.light-mode .myname h1 {
+    text-decoration: underline black;
+}
 
-#github{
+.light-mode .myname h3 {
+    text-decoration: underline black;
+}
+
+.light-mode footer {
+    background-color: rgb(248, 237, 218);
+}
+
+.light-mode footer h3 {
+    color: black
+}
+
+.light-mode .leftf span {
+    color: black;
+}
+
+.light-mode .leftf a {
+    text-decoration: none;
+}
+
+.light-mode .leftf i {
+    color: black;
+}
+
+
+.light-mode .container {
+    background-color: rgb(255, 243, 243);
+}
+
+.light-mode .icons .cat {
+    color: black;
+}
+
+.light-mode .navbar {
+    background-color: rgb(248, 237, 218);
+}
+
+.light-mode .navbar a {
+    color: rgb(22, 21, 21);
+}
+
+.light-mode .navcontent ul i {
+    color: black;
+}
+
+#github {
     background-color: black;
     border-radius: 50%;
 }
+
+/* Finish */
