@@ -5,6 +5,7 @@ const c_btns = document.getElementById("certi-id");
 const light_mode = document.getElementById("light-mode");
 const hamburger = document.getElementById("nav-line");
 const mobile_nav = document.querySelector('.sideBar');
+const hero_exit_nav = document.querySelector('#hero');
 
 document.querySelector(".home-l").addEventListener("click", () => {
   heroSection.scrollIntoView({ behavior: "smooth" });
@@ -53,3 +54,7 @@ hamburger.addEventListener("click", function(){
 mobile_nav.addEventListener("click", function(){
   mobile_nav.style.width="0px";
 });
+
+hero_exit_nav.addEventListener("click", function(){
+  mobile_nav.style.width="0px";
+})
