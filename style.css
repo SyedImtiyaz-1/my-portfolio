@@ -392,8 +392,6 @@ footer {
     right: 1rem;
     top: 1rem;
     cursor: pointer;
-    rotate: 360deg;
-    transition: 0.5s;
 }
 
 .sideBar{
@@ -403,7 +401,7 @@ footer {
     position: fixed;
     z-index: 999;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .light-mode .sideBar{
