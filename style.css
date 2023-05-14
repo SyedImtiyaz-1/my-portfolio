@@ -139,6 +139,8 @@ html {
     .navbar {
         width: 100%;
         z-index: 1;
+        position: static;
+        height: 5vh;
     }
 
     .container {
@@ -422,10 +424,15 @@ footer {
 }
 
 #nav-line{
-    display: flex;
     align-items:center;
     font-size: 1.7rem;
     cursor: pointer;
+    padding-left: 0.1em;
+    position: absolute;
+    top: 3.4px;
+    right: 0.5px;
+    rotate: 180deg;
+    display: inline-block;
     
 }
 
