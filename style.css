@@ -22,6 +22,7 @@ html {
     display: flex;
     position: sticky;
     top: 0.1px;
+    height: auto;
     background-color: rgb(60, 59, 59);
 
 }
@@ -126,6 +127,10 @@ html {
         text-align: center;
     }
 
+    .navcontent #hide{
+        font-size: 1.8em;
+        visibility: hidden;
+    }
 
     .navcontent ul {
         display: flex;
@@ -140,7 +145,7 @@ html {
         width: 100%;
         z-index: 1;
         position: static;
-        height: 5vh;
+        height: 100%;
     }
 
     .container {
