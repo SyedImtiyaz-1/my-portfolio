@@ -3,6 +3,8 @@ const skillSection = document.getElementById("techStack");
 const projectSection = document.getElementById("project");
 const c_btns = document.getElementById("certi-id");
 const light_mode = document.getElementById("light-mode");
+const hamburger = document.getElementById("nav-line");
+const mobile_nav = document.querySelector('.sideBar');
 
 document.querySelector(".home-l").addEventListener("click", () => {
   heroSection.scrollIntoView({ behavior: "smooth" });
@@ -42,4 +44,12 @@ function certi_6() {
 // Dark Mode - Light Mode
 light_mode.addEventListener("click", function () {
   document.body.classList.toggle("light-mode");
+});
+
+hamburger.addEventListener("click", function(){
+  mobile_nav.style.width="220px";
+});
+
+mobile_nav.addEventListener("click", function(){
+  mobile_nav.style.width="0px";
 });
