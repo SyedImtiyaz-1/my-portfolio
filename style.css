@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transition: 0.1s;
     /* scroll-behavior: smooth;  added js instead of this to learn more about JavaScript */
+    transition: 0.1s;
 }
 
 body {
@@ -21,8 +21,7 @@ html {
     z-index: 999;
     display: flex;
     position: sticky;
-    top: 0.1px;
-    height: auto;
+    top: 0px;
     background-color: rgb(60, 59, 59);
 
 }
@@ -30,6 +29,7 @@ html {
 .navcontent {
     width: 100%;
     display: flex;
+    height: 5vh;
 }
 
 .navcontent ul {
@@ -110,10 +110,6 @@ html {
     transition: 1s;
 }
 
-#nav-line{
-    display: none;
-}
-
 @media only screen and (min-width:200px) and (max-width:767px) {
     body {
         width: 100%;
@@ -127,29 +123,28 @@ html {
         text-align: center;
     }
 
-    .navcontent #hide{
-        font-size: 1.8em;
-        visibility: hidden;
-    }
-
     .navcontent ul {
         display: flex;
         width: 80%;
         font-size: 10px;
         margin: auto;
-        display: none;
         list-style: none;
     }
 
     .navbar {
         width: 100%;
-        z-index: 1;
-        position: static;
-        height: 100%;
     }
 
     .container {
         width: 100%;
+    }
+
+    #x {
+        display: flex;
+        position: absolute;
+        right: 1.5rem;
+        top: 1.2rem;
+        cursor: pointer;
     }
 }
 
@@ -384,63 +379,19 @@ footer {
     margin-left: 20px;
 }
 
-@media only screen and (min-width:200px) and (max-width:7680px) {
+.mySide {
+    display: none;
+}
 
-#x{
-    display: flex;
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
+#nav-line {
+    display: none;
+}
+
+#light-mode {
     cursor: pointer;
 }
 
-.sideBar{
-    width: 0px;
-    background-color: rgb(60, 59, 59);
-    height: 100%;
-    position: fixed;
-    z-index: 999;
-    overflow-x: hidden;
-    transition: 0.3s;
-}
-
-.light-mode .sideBar{
-    background-color: white;
-}
-
-.light-mode .sideBar a{
-    color: black;
-}
-
-.sideBar a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.sideBar a:hover{
-    text-decoration: underline orange; 
-}
-
-.sideBar li{
-    display: grid;
-    width: fit-content;
-    padding: 3rem;
-    padding-left: 2rem;
-}
-
-#nav-line{
-    align-items:center;
-    font-size: 1.7rem;
-    cursor: pointer;
-    padding-left: 0.1em;
-    position: absolute;
-    top: 3.4px;
-    right: 0.5px;
-    rotate: 180deg;
-    display: inline-block;
-    
-}
+@media only screen and (min-width:200px) and (max-width:700px) {
 
     .myname {
         width: 100%;
@@ -627,6 +578,64 @@ footer {
         display: inline-block;
     }
 
+    /* nav-a-side */
+    .mySide {
+        height: 100%;
+        display: flex;
+        width: 0px;
+        background-color: rgb(50, 49, 49);
+        position: fixed;
+        z-index: 1;
+        overflow-x: hidden;
+    }
+
+    .mySide ul{
+        width: 60%;
+    }
+
+    .mySide li {
+        padding: 3.5rem;
+    }
+
+    .mySide a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    .mySide a:hover{
+        text-decoration: underline orange;
+    }
+
+    .navcontent ul {
+        display: none;
+    }
+
+    .navbar {
+        z-index: inherit;
+        position: static;
+    }
+
+    .light-mode #nav-collapse {
+        color: white;
+    }
+
+    .light-mode #x {
+        color: white;
+    }
+
+    #nav-line {
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+        padding-left: 0.1rem;
+        cursor: pointer;
+    }
+
+    #nav-collapse{
+        font-size: 1.3rem;
+    }
 }
 
 /* updating portfolio with a new section of Certifications */
@@ -679,10 +688,13 @@ footer {
 }
 
 /* Dark Mode */
-#light-mode {
+
+
+.light-mode {
     font-size: 1.2rem;
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
+    cursor: pointer;
 }
 
 body.light-mode {
@@ -752,4 +764,4 @@ body.light-mode {
     border-radius: 50%;
 }
 
-/* Finish */
+/* nav-bar for mobile  */

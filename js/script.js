@@ -3,8 +3,10 @@ const skillSection = document.getElementById("techStack");
 const projectSection = document.getElementById("project");
 const c_btns = document.getElementById("certi-id");
 const light_mode = document.getElementById("light-mode");
-const hamburger = document.getElementById("nav-line");
-const mobile_nav = document.querySelector('.sideBar');
+const open_dark = document.getElementById('nav-collapse')
+const open_nav = document.getElementById("nav-line");
+const side_nav = document.querySelector('.mySide');
+const close_nav = document.querySelector('#x');
 const hero_exit_nav = document.querySelector('#hero');
 
 document.querySelector(".home-l").addEventListener("click", () => {
@@ -47,12 +49,16 @@ light_mode.addEventListener("click", function () {
   document.body.classList.toggle("light-mode");
 });
 
-hamburger.addEventListener("click", function(){
-  mobile_nav.style.width="220px";
+open_dark.addEventListener("click", function () {
+  document.body.classList.toggle("light-mode");
 });
 
-mobile_nav.addEventListener("click", function(){
-  mobile_nav.style.width="0px";
+open_nav.addEventListener("click", function(){
+  side_nav.style.width="220px";
+});
+
+close_nav.addEventListener("click", function(){
+  side_nav.style.width="0px";
 });
 
 hero_exit_nav.addEventListener("click", function(){
