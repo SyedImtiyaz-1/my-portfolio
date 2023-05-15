@@ -587,6 +587,7 @@ footer {
         position: fixed;
         z-index: 1;
         overflow-x: hidden;
+        transition: 0.25s;
     }
 
     .mySide ul{
@@ -628,8 +629,8 @@ footer {
     #nav-line {
         display: flex;
         align-items: center;
-        font-size: 1.6rem;
-        padding-left: 0.1rem;
+        font-size: 1.9rem;
+        padding-left: 0.19rem;
         cursor: pointer;
     }
 
