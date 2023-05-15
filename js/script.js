@@ -62,5 +62,5 @@ close_nav.addEventListener("click", function(){
 });
 
 hero_exit_nav.addEventListener("click", function(){
-  mobile_nav.style.width="0px";
+  side_nav.style.width="0px";
 })
