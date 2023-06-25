@@ -323,7 +323,7 @@ footer {
     display: flex;
     width: 100%;
     background-color: rgb(61, 60, 60);
-    height: 28vh;
+    height: auto;
     /* color: white; */
 }
 
@@ -378,6 +378,7 @@ footer {
 
 .leftf h3 {
     margin-left: 20px;
+    margin-top: 2em;
 }
 
 .mySide {
@@ -475,7 +476,7 @@ footer {
     }
 
     footer {
-        margin-top: 35vh;
+        margin-top: 70vh;
     }
 
     .left {
@@ -548,7 +549,7 @@ footer {
     .certifications {
         display: flex;
         position: relative;
-        top: 26vh;
+        top: 60vh;
         justify-content: center;
         /* width: 50%; */
     }
@@ -649,7 +650,6 @@ footer {
     display: flex;
     justify-content: center;
     margin: 3vh;
-    /* width: 98%; */
 }
 
 .certifications-box {
